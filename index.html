@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bg">
+        <div class="logo">
+          <svg
+            width="50"
+            height="48"
+            viewBox="0 0 50 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.68182 9.90909H13.4886L19.1705 21.7273H19.3977L25.0795 9.90909H33.8864L23.2045 29.8523V39H15.3636V29.8523L4.68182 9.90909ZM36.3047 39.125C36.0026 39.125 35.7435 39.0195 35.5273 38.8086C35.3138 38.5951 35.2083 38.3359 35.2109 38.0312C35.2083 37.7344 35.3138 37.4805 35.5273 37.2695C35.7435 37.0586 36.0026 36.9531 36.3047 36.9531C36.5911 36.9531 36.8438 37.0586 37.0625 37.2695C37.2839 37.4805 37.3958 37.7344 37.3984 38.0312C37.3958 38.2344 37.3424 38.4193 37.2383 38.5859C37.1367 38.75 37.0039 38.8815 36.8398 38.9805C36.6758 39.0768 36.4974 39.125 36.3047 39.125ZM41.5391 33V33.7812H38.3047V33H41.5391ZM39.2734 39V32.1719C39.2734 31.8281 39.3542 31.5417 39.5156 31.3125C39.6771 31.0833 39.8867 30.9115 40.1445 30.7969C40.4023 30.6823 40.6745 30.625 40.9609 30.625C41.1875 30.625 41.3724 30.6432 41.5156 30.6797C41.6589 30.7161 41.7656 30.75 41.8359 30.7812L41.5703 31.5781C41.5234 31.5625 41.4583 31.543 41.375 31.5195C41.2943 31.4961 41.1875 31.4844 41.0547 31.4844C40.75 31.4844 40.5299 31.5612 40.3945 31.7148C40.2617 31.8685 40.1953 32.0937 40.1953 32.3906V39H39.2734ZM42.8311 39V33H43.7217V33.9062H43.7842C43.8936 33.6094 44.0915 33.3685 44.3779 33.1836C44.6644 32.9987 44.9873 32.9062 45.3467 32.9062C45.4144 32.9062 45.499 32.9076 45.6006 32.9102C45.7021 32.9128 45.779 32.9167 45.8311 32.9219V33.8594C45.7998 33.8516 45.7282 33.8398 45.6162 33.8242C45.5068 33.806 45.391 33.7969 45.2686 33.7969C44.9769 33.7969 44.7165 33.8581 44.4873 33.9805C44.2607 34.1003 44.0811 34.2669 43.9482 34.4805C43.818 34.6914 43.7529 34.9323 43.7529 35.2031V39H42.8311Z"
+              fill="#0A0D13"
+            />
+            <path d="M0 6L0 43" stroke="#0A0D13" />
+            <path d="M50 6V43" stroke="#0A0D13" />
+          </svg>
+        </div>
+        <ul class="desktop">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#aboutme">About Me</a></li>
+        </ul>
+
+        <button
+          id="hamburgerMenu"
+          name="hamburger"
+          type="button"
+          class="hamburger"
+        >
+          <span class="spanHamburger origin-top-left"></span>
+          <span class="spanHamburger"></span>
+          <span class="spanHamburger origin-bottom-left"></span>
+        </button>
+        <div class="navMenu" id="nav-menu">
+          <div class="mobile">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#aboutme">About Me</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="contents">
+        <article id="home">
+          <div class="animate-ilustration">
+            <div class="box"></div>
+            <div class="tri"></div>
+            <div class="round"></div>
+            <div class="rect"></div>
+            <div class="para"></div>
+          </div>
+          <div class="greet">
+            <h1>Hello Everyone! Welcome to my website.</h1>
+            <p>
+              Find an interesting design here. All this work were redesigned by
+              Me. As always, being positive to everyone for a good living and
+              enjoy our journey through all problems. Good thing will happen to
+              you. Thanks for visiting my website.
+            </p>
+            <span class="btn-wrapper">
+              <a href="#" class="btn-hello">Say Hello!</a>
+            </span>
+          </div>
+        </article>
+        <article class="project" id="projects">
+          <h1>Projects</h1>
+          <p>From my latest and oldest project were here. Enjoy!</p>
+          <div class="cards">
+            <div class="card">
+              <img src="assets/images/1.jpg" alt="" />
+              <h3>Tesla Clone</h3>
+              <p>I think this is my first project using HTML.</p>
+              <span class="flex">
+                <span class="type">HTML</span>
+                <span class="type">CSS</span>
+              </span>
+            </div>
+            <div class="card">
+              <img src="assets/images/2.jpg" alt="" />
+              <h3>Paper Rock</h3>
+              <p>This is my first DOM Project.</p>
+              <span class="flex">
+                <span class="type">Javascript</span>
+                <span class="type">CSS</span>
+                <span class="type">HTML</span>
+              </span>
+            </div>
+            <div class="card">
+              <img src="assets/images/3.jpg" alt="" />
+              <h3>Activity Generator</h3>
+              <p>This was my project during bored.</p>
+              <span class="flex">
+                <span class="type">Javascript</span>
+                <span class="type">CSS</span>
+                <span class="type">HTML</span>
+              </span>
+            </div>
+            <div class="card">
+              <img src="assets/images/4.jpg" alt="" />
+              <h3>QR Generator</h3>
+              <p>This project was my latest project</p>
+              <span class="flex">
+                <span class="type">Javascript</span>
+                <span class="type">CSS</span>
+                <span class="type">HTML</span>
+              </span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+    <aside>
+      <header id="aboutme">
+        <h2>About Me</h2>
+        <figure>
+          <img src="assets/images/yanuar3.png" alt="" />
+        </figure>
+        <div class="center">
+          <span class="type">FullStack</span>
+          <span class="type">UI/UX</span>
+        </div>
+      </header>
+      <section>
+        <table>
+          <tr>
+            <td>Name</td>
+            <td>:</td>
+            <td>Yanuar Faturahman</td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td>yanuarfatur41@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Phone Number</td>
+            <td>:</td>
+            <td>+6288226676844</td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>:</td>
+            <td>Purbalingga, Central Java, Indonesia</td>
+          </tr>
+        </table>
+      </section>
+    </aside>
+    <footer>
+      <div class="wrapper-footer">
+        <p>Portfolio By Yanuar Faturahman</p>
+        <p>Made With <span style="color: rgb(241, 24, 24)">&#10084;</span></p>
+        <p>&#169; 2022 YANUAR</p>
+      </div>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
